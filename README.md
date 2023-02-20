@@ -14,7 +14,7 @@ Once the Cloud function has provisioned the device with ClearBlade IoT on GCP, i
 |----------|-------|
 | GCP_CLIENT_PATH | `<registry-path>/devices/<device-id>`<br><br> `<registry-path>` is derived from the project ID, GCP region, and registry ID<br>`<device-id>` is derived from the balena UUID for the device |
 | GCP_DATA_TOPIC_ROOT | `/devices/<device-id>` |
-| GCP_PROJECT_ID | GCP/ClearBlade project ID |
+| GCP_PROJECT_ID | GCP/ClearBlade project ID. ClearBlade always uses the same project ID as GCP. |
 | GCP_PRIVATE_KEY | Private key in PEM format, base64 encoded to eliminate line wrapping |
 
 
@@ -45,9 +45,9 @@ The sections below show how to test the Cloud Function on a local test server an
 | Key         |    Value    |
 |-------------|-------------|
 | BALENA_API_KEY | for use of balena API; found in balenaCloud dashboard at: `account -> Preferences -> Access tokens` |
-| GCP_PROJECT_ID | GCP/ClearBlade project ID, like `my-project-000000`|
+| GCP_PROJECT_ID | GCP/ClearBlade project ID, like `my-project-000000`. ClearBlade always uses the same project ID as GCP.|
 | GCP_REGION | GCP region for registry, like `us-central1` |
-| GCP_REGISTRY_ID | Registry ID you provided to create the ClearBlade IoT registry |
+| CB_REGISTRY_ID | Registry ID you provided to create the ClearBlade IoT registry |
 | CB_SERVICE_ACCOUNT |base64 encoding of the JSON formatted ClearBlade service account credentials provided by ClearBlade. The credentials are generated when you create the service account as described in the setup instructions above. Example below.<br><br>`cat <credentials.json> \| base64 -w 0` |
 
 ### HTTP API

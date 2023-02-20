@@ -55,7 +55,7 @@ export async function provision(req, res) {
             credentials: JSON.parse(Buffer.from(process.env.CB_SERVICE_ACCOUNT, 'base64').toString())
         })
         registryPath = iot.registryPath(process.env.GCP_PROJECT_ID, process.env.GCP_REGION,
-            process.env.GCP_REGISTRY_ID)
+            process.env.CB_REGISTRY_ID)
 
         let deviceText = `${body.uuid} for service ${body.balena_service}`
         switch (req.method) {
