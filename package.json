@@ -5,6 +5,7 @@
   "description": "Google Cloud function to provision a balena device to ClearBlade IoT Core",
   "main": "index.js",
   "type": "module",
+  "private": "true",
   "dependencies": {
     "@google-cloud/functions-framework": "^3.1.3",
     "@clearblade/iot": "^1.0.6",
