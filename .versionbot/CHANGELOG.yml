@@ -1,0 +1,14 @@
+- commits:
+    - subject: Add flowzone support
+      hash: 58180d03ce119757d046e748b5048fa6e157dd36
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Ken Bannister <kb2ma@runbox.com>
+        signed-off-by: Ken Bannister <kb2ma@runbox.com>
+      author: Ken Bannister
+      nested: []
+  version: 0.0.2
+  title: ""
+  date: 2023-02-25T14:38:30.493Z
