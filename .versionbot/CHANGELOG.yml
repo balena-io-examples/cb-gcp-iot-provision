@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fixup private property
+      hash: e19c04eba321edc59459a76e3e3bcccc91dd2b15
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Ken Bannister <kb2ma@runbox.com>
+        signed-off-by: Ken Bannister <kb2ma@runbox.com>
+      author: Ken Bannister
+      nested: []
+  version: 0.1.0
+  title: ""
+  date: 2023-02-25T15:31:54.064Z
+- commits:
     - subject: Add flowzone support
       hash: 58180d03ce119757d046e748b5048fa6e157dd36
       body: ""
