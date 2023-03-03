@@ -1,6 +1,6 @@
 {
   "name": "cb-gcp-iot-provision",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Google Cloud function to provision a balena device to ClearBlade IoT Core",
   "main": "index.js",
   "type": "module",
@@ -34,6 +34,6 @@
   },
   "homepage": "https://github.com/balena-io-examples/cb-gcp-iot-provision",
   "versionist": {
-    "publishedAt": "2023-02-25T15:31:54.111Z"
+    "publishedAt": "2023-03-03T15:14:49.379Z"
   }
 }
